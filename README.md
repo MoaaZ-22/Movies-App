@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/71730030/211171822-4c6046d1-8add-4472-
  - Easy to understand code.
  - Clean code.
  - Ready to integrate.
- - The favorite movies available each time(in Storage).
+ - The favorite movies (Hive Db).
  - Shows the upcoming movies.
  - Shows a new playing movies.
  - Shows movies based on the category.
@@ -21,7 +21,8 @@ https://user-images.githubusercontent.com/71730030/211171822-4c6046d1-8add-4472-
  - Shimmers pagination.
 
 # dependencies :
-
+ - hive:
+ - hive_flutter:
  - bloc: ^8.1.0
  - flutter_bloc: ^8.1.1
  - dio: ^4.0.6
@@ -34,6 +35,9 @@ https://user-images.githubusercontent.com/71730030/211171822-4c6046d1-8add-4472-
  - animated_splash_screen: ^1.3.0
  - flutter_svg: ^1.1.6
  - path_provider: ^2.0.11
+  - dev_dependencies:
+   - hive_generator:
+   - build_runner: 
   
   
 ## Installation :
